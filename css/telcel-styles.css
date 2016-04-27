@@ -1,0 +1,752 @@
+/***Telcel Styles***/
+
+/*General Styles*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 16px;
+	color: #222222;
+	background: url(../images/bg-logos.jpg) no-repeat center top fixed;
+}
+a, a:link, a:hover, a:active, a:visited{
+	outline: none !important;
+}
+.loader-register-container{
+	text-align: center;
+	float: left;
+	width: 100%;
+	height: 16px;
+	margin-top: 15px;
+}
+#respuesta-register{
+	text-align: center;
+	float: left;
+	width: 100%;
+	margin-top: 15px;
+}
+#respuesta-register .success{
+	color: #090;
+}
+#respuesta-register .error{
+	color: #f00;
+}
+.mtop{
+	margin-top: 30px;
+}
+.right{
+	float: right !important;
+}
+.extra-element{
+	float: left;
+	width: 100%;
+}
+.extra-element p{
+	text-align: center;
+	float: left;
+	width: 100%;
+}
+.telcel-wrapper{
+	float: left;
+	width: 100%;
+}
+.telcel-container{
+	position: relative;
+	width: 960px;
+	margin: 70px auto 0;
+}
+.telcel-container-full{
+	float: left;
+	width: 100%;
+}
+.telcel-section{
+	float: left;
+	width: 100%;
+	padding: 30px 0 30px;
+}
+.header{
+	text-align: center;
+	float: left;
+	width: 100%;
+	margin: 60px 0 30px;
+	padding-bottom: 30px;
+	background: url(../images/divider.png) no-repeat center bottom;
+}
+.header2{
+	color: #fff;
+	text-align: center;
+	float: left;
+	width: 100%;
+	margin: 60px 0 30px;
+	padding-bottom: 30px;
+	background: url(../images/divider2.png) no-repeat center bottom;
+}
+.telcel-section h3{
+	text-align: center;
+	float: left;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.telcel-section h3 strong{
+	color: #3284d8;
+}
+.no-capacity{
+	float: left;
+	width: 100%;
+}
+.no-capacity p{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 24px;
+	color: #f00;
+}
+.no-invitados{
+	float: left;
+	width: 100%;
+}
+.no-invitados p{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 24px;
+	color: #f00;
+}
+.message-email{
+	float: left;
+	width: 100%;
+}
+.message-email p{
+	text-align: center;
+	font-size: 18px;
+	color: #3284d8;
+}
+.btn-telcel{
+	font-size: 16px;
+	color: #222;
+	text-decoration: none;
+	padding: 3px 10px;
+	margin: 15px 5px 0 0;
+	background: #fff;
+	border: #3284d8 2px solid;
+}
+.btn-telcel:hover{
+	color: #fff;
+	background: #3284d8;
+}
+.btn-menu-telcel{
+	margin-top: 20px;
+	padding: 0 !important;
+	list-style: none;
+}
+.btn-menu-telcel li{
+	float: left;
+}
+.btn-menu-telcel li a{
+	text-align: center;
+	display: block;
+	color: #222;
+	text-decoration: none;	
+	padding: 3px 10px;
+	margin: 5px 5px 0 0;
+	background: #fff;
+	border: #3284d8 2px solid;
+}
+.btn-menu-telcel li a:hover{
+	color: #fff;
+	background: #3284d8;
+}
+
+/*Header*/
+.telcel-menu{
+	text-transform: uppercase;
+	width: 100%;
+	position: fixed;
+	*position: relative;
+	height: 70px;
+	color: #fff;
+	background-color: #3284d8;
+	z-index: 100;
+}
+.telcel-menu-cont{
+	position: relative;
+	width: 960px;
+	margin: 0 auto;
+}
+.telcel-menu-cont ul{
+	float: left;
+	list-style: none;
+}
+.telcel-menu-cont ul li{
+	float: left;
+}
+.telcel-menu-cont ul li a{
+	font-size: 14px;
+	display: block;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+	margin-right: 30px;
+	padding: 25px 0;
+}
+.telcel-menu-cont ul li a:hover{
+	text-decoration: underline;
+}
+.sub-menu{
+	display: none;
+	margin: 0px !important;
+	position: absolute;
+	width: 180px;
+	background-color: #3284d8;
+	z-index: 1000;
+}
+.sub-menu li{
+	float: left;
+	width: 100%;
+	background: none !important;
+}
+.sub-menu li a{
+	font-size: 14px;
+	display: block;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+	margin-right: 30px;
+	padding: 5px 10px !important;
+}
+.telcel-menu-cont ul li:hover > ul{
+	display: block;
+}
+
+.session{
+	float: right;
+	margin-top: 15px;
+}
+.session img{
+	float: left;
+	margin: 8px 10px 0 0;
+}
+.session .session-info{
+	float: left;
+	font-size: 12px;
+	color: #fff;
+}
+.session .session-info p{
+	font-weight: bold;
+}
+.session .session-info a{
+	color: #fff;
+	text-decoration: none;
+}
+.session .session-info a:hover{
+	text-decoration: underline;
+}
+.session .access{
+	float: left;
+	font-weight: bold;
+	margin-top: 5px;
+	padding: 5px 10px;
+	border: #fff 1px solid;
+}
+.session .access:hover{
+	background: #fff;
+	color: #3284d8;
+	text-decoration: none !important;
+}
+
+/*Slider*/
+.telcel-slider{
+	float: left;
+	width: 100%;
+	padding-bottom: 0 !important;
+}
+
+/*Intro*/
+.telcel-what p{
+	text-align: center;
+	float: left;
+	width: 100%;
+}
+
+/*Carreras*/
+.countdown-cont{
+	float: left;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.countdown, .countdown2, .countdown3{
+	position: relative;
+	width: 340px;
+	margin: 0 auto;
+	list-style: none;
+}
+.countdown li, .countdown2 li, .countdown3 li{
+	float: left;	
+}
+.countdown li span, .countdown2 li span, .countdown3 li span{
+	font-size: 52px;
+}
+.countdown li p, .countdown2 li p, .countdown3 li p{
+	text-align: center;
+}
+.countdown .seperator, .countdown2 .seperator, .countdown3 .seperator{
+	font-size: 36px;
+	padding: 15px 10px 0;
+}
+.cd-two-cols{
+	width: 50%;
+}
+
+/*Tu Reto*/
+.telcel-challenge{
+	float: left;
+	width: 100%;
+}
+.telcel-challenge-item{
+	float: left;
+	width: 450px;
+	margin-bottom: 30px;
+}
+.telcel-challenge-item img{
+	float: left;
+	width: 295px;
+}
+.challenge-text{
+	position: absolute;
+	width: 260px;
+	padding: 15px;
+	margin: 20px 0 0 180px;
+	background: #fff;
+	border: #e1e1e1 3px solid;
+}
+.challenge-text h4{
+	font-weight: normal;
+	padding-bottom: 5px;
+	margin-bottom: 15px;
+	border-bottom: #222 1px solid
+}
+.challenge-text h4 strong{
+	font-weight: bold;
+}
+.challenge-text p{
+	float: left;
+}
+.challenge-text ul{
+	float: left;
+	margin-top: 10px;
+	list-style: none;
+}
+.challenge-text ul li{
+	float: left;
+}
+.challenge-text ul li a{
+	color: #222;
+	text-decoration: none;
+	float: left;
+	padding: 3px 10px;
+	margin: 5px 5px 0 0;
+	background: #fff;
+	border: #3284d8 2px solid;
+}
+.challenge-text ul li a:hover{
+	color: #fff;
+	background: #3284d8;
+}
+
+/*Consejos*/
+.bg-run{
+	background: url(../images/l6.jpg) no-repeat center center;
+}
+.telcel-consejos{
+	color: #fff;
+	padding-bottom: 60px;
+}
+.telcel-consejos p{
+	text-align: center;
+	float: left;
+	width: 100%;
+}
+.telcel-consejos-tabs{
+	float: left;
+	width: 100%;
+}
+
+.tab-container{
+	position: relative;
+	width: 960px;
+	margin: 0 auto;
+}
+.etabs {
+	position: relative;
+	width: 205px;
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+}
+.tab{
+	float: left;
+	margin-right: 15px;
+	padding: 15px;
+	border: #fff 2px solid;
+}
+.tab a{
+	color: #fff;
+	display: block;
+	width: 60px;
+	height: 60px;
+	background: url(../images/service1.png) no-repeat 0 0;
+}
+.tab:hover{
+	background: #3284d8;
+}
+.tab a:hover{
+	background: url(../images/service1.png) no-repeat 0 -62px;
+}
+.tab.active {
+	background: #3284d8;
+}
+.tab a.active {
+	font-weight: bold;
+	background: url(../images/service1.png) no-repeat 0 -62px;
+}
+.tab a span{
+	text-align: center;
+	position: absolute;
+	width: 90px;
+	margin: 80px 0 0 -15px;
+}
+
+.tab-container .panel-container{
+	float: left;
+	width: 100%;
+	margin-top: 70px;
+}
+
+/*Inscribete*/
+.telcel-sus form{
+	float: left;
+	width: 100%;
+}
+.telcel-sus .input-wrap{
+	float: left;
+	width: 480px;
+	margin-bottom: 10px;
+}
+.telcel-sus .input-wrap label{
+	text-align: right;
+	float: left;
+	width: 50%;
+	font-weight: bold;
+	padding-right: 5px;
+}
+.telcel-sus .input-wrap input{
+	float: left;
+	width: 220px;
+	padding: 3px 5px;
+}
+.telcel-sus .input-wrap select{
+	float: left;
+	width: 232px;
+	padding: 3px 5px;
+}
+.telcel-sus .submit-wrap{
+	text-align: center;
+	float: left;
+	width: 100%;
+}
+.telcel-sus .submit-wrap input, .telcel-sus .submit-wrap a{
+	font-size: 16px;
+	color: #222;
+	text-decoration: none;
+	padding: 3px 10px;
+	margin: 5px 5px 0 0;
+	background: #fff;
+	border: #3284d8 2px solid;
+}
+.telcel-sus .submit-wrap input:hover, .telcel-sus .submit-wrap a:hover{
+	color: #fff;
+	background: #3284d8;
+}
+.telcel-sus .input-wrap label.error{
+	float: left;
+	width: 100%;
+	font-size: 12px;
+	color: #f00;
+}
+
+/*Gym*/
+.bg-gym{
+	background: url(../images/l4.jpg) no-repeat center center;
+}
+.telcel-gym{
+	color: #fff;
+	padding-bottom: 60px;
+}
+.telcel-gym p{
+	text-align: center;
+	float: left;
+	width: 100%;
+}
+.telcel-gym ul{
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+	float: left;
+	width: 100%;
+	margin: 15px 0;
+	list-style: none;
+}
+.telcel-gym-slider{
+	float: left;
+	width: 100%;
+	margin-top: 30px;
+}
+.telcel-gym-slider .slider-wrapper{
+	position: relative;
+	width: 300px;
+	margin: 0 auto;
+}
+
+/*Invitados*/
+.numero-invitados{
+	color: #3284d8;
+	text-align: center;
+	float: left;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+/*Login*/
+.telcel-login{
+	float: left;
+	width: 100%;
+}
+.telcel-login-container{
+	position: relative;
+	width: 960px;
+	margin: 70px auto 0;
+}
+.telcel-login-form{
+	text-align: center;
+}
+.telcel-login-form label{
+	float: left;
+	width: 100%;
+	font-weight: bold;
+	padding-right: 5px;
+	margin-top: 15px;
+}
+.telcel-login-form input{
+	width: 220px;
+	padding: 3px 5px;
+}
+.telcel-login-form input.submit-btn{
+	font-size: 16px;
+	color: #222;
+	text-decoration: none;
+	padding: 3px 10px;
+	margin: 15px 5px 0 0;
+	background: #fff;
+	border: #3284d8 2px solid;
+}
+.telcel-login-form input.submit-btn:hover{
+	color: #fff;
+	background: #3284d8;
+}
+.telcel-login-form label.error{
+	float: left;
+	width: 100%;
+	font-size: 12px;
+	color: #f00;
+	margin-top: 0 !important;
+}
+.loader-login-container{
+	text-align: center;
+	float: left;
+	width: 100%;
+	height: 16px;
+	margin-top: 15px;
+}
+#respuesta-login{
+	text-align: center;
+	float: left;
+	width: 100%;
+	margin-top: 15px;
+}
+#respuesta-login .success{
+	color: #090;
+}
+#respuesta-login .error{
+	color: #f00;
+}
+
+.paypal-btn{
+	text-align: center;
+}
+.paypal-btn input.submit-btn{
+	font-size: 16px;
+	color: #fff;
+	text-decoration: none;
+	padding: 3px 10px;
+	margin: 15px 5px 0 0;
+	background: #3284d8;
+	border: #3284d8 2px solid;
+}
+.paypal-btn input.submit-btn:hover{
+	color: #222;
+	background: #fff;
+}
+
+/*Galeria*/
+.gal-wrapper{
+	float: left;
+	width: 100%;
+	margin-bottom: 40px;
+}
+.gal-column{
+	float: left;
+	width: 320px;
+}
+.gal-column-innner{
+	padding: 0 20px 0 0;
+}
+.gal-column-innner ul{
+	list-style: none;
+	margin-bottom: 20px;
+}
+.gal-column-innner ul li{
+	float: left;
+	margin: 0 5px 5px 0;
+	width: 70px;
+	height: 70px;
+	overflow: hidden;
+}
+.gal-inner-header{
+	color: #fff;
+	background-color: #3284d8;
+	padding: 5px 10px;
+	margin-bottom: 10px;
+}
+.gal-column-innner ul li a img{
+	height: 70px;
+}
+
+/*Futbol*/
+.bg-fut{
+	background: url(../images/l3.jpg) no-repeat center center;
+}
+.telcel-fut{
+	font-size: 16px;
+	padding-bottom: 60px;
+}
+.telcel-fut h3{
+	text-align: left;
+	margin-top: 30px;
+}
+.telcel-fut p{
+	float: left;
+	width: 100%;
+	margin: 0 0 15px;
+}
+.telcel-fut ul{
+	float: left;
+	width: 100%;
+	margin: 0 0 15px;
+	padding-left: 30px;
+}
+.telcel-fut a{
+	color: #3284D8;
+}
+.telcel-fut-logo{
+	float: left;
+	width: 300px;
+}
+.telcel-fut-text{
+	float: right;
+	width: 600px;
+}
+
+/*Extras*/
+.center-challenge{
+	float: none;
+	position: relative;
+	margin: 0 auto;
+}
+.subs-yet{
+	text-align: center;
+}
+.subs-yet p{
+	margin-bottom: 20px;
+}
+.subs-yet h3, .subs-yet h4{
+	color: #f00;
+}
+
+.links-otros{
+	text-align: center;
+	float: left;
+	width: 100%;
+	margin: 45px 0 30px;
+}
+.links-otros h4{
+	margin-bottom: 10px;
+}
+.links-otros a{
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+	padding: 3px 10px;
+	margin: 5px 5px 0 0;
+	background: #3284d8;
+	border: #3284d8 2px solid;
+}
+.links-otros a:hover{
+	color: #222;
+	background: #fff;
+}
+
+.red-btn{
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+	padding: 3px 10px;
+	margin: 10px 0;
+	background: #f00;
+	border: #f00 2px solid;
+	display: inline-block;
+}
+.red-btn:hover{
+	color: #000;
+	background: #fff;
+}
+
+.note-text{
+	float: left;
+	width: 100%;
+}
+.note-text p{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 18px;
+}
+
+.header3-blue{
+	text-align: center;
+	color: #3284d8;
+	text-transform: uppercase;
+}
+
+.carrera-cancelada{
+	text-align: center;
+	color: #fff;
+	position: absolute;
+	width: 480px;
+	height: 400px;
+	background: url(../images/bg-overlay.png) repeat 0 0;
+}
+.carrera-cancelada h3{
+	font-size: 36px;
+	margin-top: 120px;
+}
+.carrera-cancelada a{
+}
