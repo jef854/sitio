@@ -8,7 +8,7 @@ include("../connection/web.php");
 /*Hacer la consulta de registro maximo de niños*/
 $query_nino = "SELECT * FROM ninos";
 $result_nino = mysql_query($query_nino, $db) or die(mysql_error());
-$numero_nino = mysql_num_rows($result_nino);
+echo  $numero_nino = mysql_num_rows($result_nino);
 /*Fin de la consulta de numero maxi de  ninos*/
 $query = "SELECT * FROM registros";
 $result = mysql_query($query, $db) or die(mysql_error());
@@ -16,9 +16,9 @@ $numero = mysql_num_rows($result);
 $verifyUser = 0;
 
 while( $exist = mysql_fetch_object($result) ){
-	if( $_SESSION['username'] == $exist -> id_empleado ){ 
-		$verifyUser = 1; 
-	}
+    if( $_SESSION['username'] == $exist -> id_empleado ){ 
+        $verifyUser = 1; 
+    }
 }
 
 date_default_timezone_set('America/Mexico_City');
@@ -167,10 +167,10 @@ $proximamente = "";
                             (Te esperamos desde las 6:00 a.m.)<br />
                             <strong>Cupo limitado:</strong> 800 corredores<br />
                             <ul>
-                              <li><a class="rutas" href="../images/RUTAPUEBLA.jpg" rel="rutas" title="Ruta 5K y 10K">Ver Rutas</a></li>
+                              <li><a class="rutas" href="../images/RutaPuebla.jpg" rel="rutas" title="Ruta 5K y 10K">Ver Rutas</a></li>
                               <!--<li><a class="rutas" href="images/estacionamientos-df.jpg" rel="rutas" title="Estacionamientos">Ver Estacionamientos</a></li>-->
-                              <li><a class="rutas" href="../images/ENTREGADEKITS.jpg" >Entrega de Kits</a></li>
-                              <li><a href="../files/CONVOCATORIAPUEBLA2016.pdf" target="_blank">Ver convocatoria</a></li>
+                              <li><a class="rutas" href="../images/ENTREGADEKITSf.jpg" >Entrega de Kits</a></li>
+                              <li><a href="../files/CONVOCATORIAPUEBLAVF.pdf" target="_blank">Ver convocatoria</a></li>
                               <!--<li><a href="http://marcate.com.mx/evento/SPTMCAR1445440668" target="_blank">Inscríbete aquí</a></li>-->
                           </ul>
                         </div>
@@ -259,6 +259,7 @@ $proximamente = "";
                                     <select name="carrera">
                                         <option value="">SELECCIONA:</option>
                                         <option value="PUEBLA">PUEBLA</option>
+                                        <option value="PUEBLA">QUERETARO</option>
                                     </select>
                                 </div>
                                 <div class="input-wrap">
@@ -345,7 +346,7 @@ $proximamente = "";
                     	<h4>Agregar externos</h4>
                         <a href="invitado.php">Inscribir a un Invitado</a>
 						<!--Validar que no se pasen de 120 niños -->
-						<?php if (numero_nino < 120) { ?>
+						<?php if ($numero_nino <= 120) { ?>
 							<a href="ninos.php">Inscribir a un Niño</a>
 						<?php }else{ ?>
 							<div class="no-capacity">

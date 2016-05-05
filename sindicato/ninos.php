@@ -39,6 +39,8 @@ $ninos_restantes = 2 - $numero_nino;
 
 </head>
 
+
+
 <body>
 <div class="telcel-menu">
 	<div class="telcel-menu-cont">
@@ -66,7 +68,7 @@ $ninos_restantes = 2 - $numero_nino;
                         </div>
                     <?php }else{ ?>
                     	<p class="numero-invitados">Número de niños que puedes agregar: <?php echo $ninos_restantes; ?></p>
-                        <form id="registro_ninos" action="registro_ninos.php" method="post">
+                        <form id="registro_ninos" action="registro_ninos.php" method="post" onsubmit="return checkSubmit();">
                             <div class="input-wrap">
                                 <label>NOMBRE:</label>
                                 <input type="text" name="nombre" id="nombre" />
@@ -84,21 +86,24 @@ $ninos_restantes = 2 - $numero_nino;
                                 <select name="carrera">
                                         <option value="">SELECCIONA:</option>
                                         <option value="PUEBLA">PUEBLA</option>
+                                        <option value="PUEBLA">QUERETARO</option>
                                 </select>
                             </div>
                             <div class="input-wrap">
                                 <label>EDAD:</label>
-                                <input type="text" name="edad" id="age"/>
+                                    <select id="primary" name="edad">
+                                        <option value="">SELECCIONA:</option>
+                                        <option value="edad_3_a_5">3 a 5 años</option>
+                                        <option value="edad_6_a_7">6 a 7 años</option>
+                                        <option value="edad_8_a_9">8 a 9 años</option>
+                                        <option value="edad_10_a_12">10 a 12 años</option>
+                                    </select> 
                             </div>
                             <div class="input-wrap">
                                 <label>DISTANCIA:</label>
-								<select name="distancia">
+								<select id="secondary" name="distancia2" >
                                     <option value="">SELECCIONA:</option>
-                                    <option value="25">25</option>
-                                    <option value="50">50</option>
-									<option value="75">75</option>
-                                    <option value="100">100</option>
-                                </select>
+                                 </select>
                                 <!--<input type="text" name="distancia" id="distance" disabled="disabled" />-->
                             </div>
                             <div class="input-wrap">
@@ -119,11 +124,11 @@ $ninos_restantes = 2 - $numero_nino;
                                 </select>
                             </div>
                             <div class="submit-wrap">
-                                <input class="submit-btn" type="submit" value="Inscribir a Niño a la Carrera" />                   
+                                <input class="submit-btn" id="btsubmit" type="submit" value="Inscribir a Niño a la Carrera" />                   
                             </div>
                             <input type="hidden" name="invitado" id="invitado" value="<?php echo $user; ?>"/>
                             <input type="hidden" name="tipo" id="tipo" value="invitado" />
-                            <input type="hidden" name="distancia2" id="distance2" />
+                            
                             <input type="hidden" name="edad2" id="age2" />
                             <input type="hidden" name="status" id="status" value="NA" />                      
                         </form>
@@ -141,4 +146,33 @@ $ninos_restantes = 2 - $numero_nino;
 </div>
 
 </body>
+
+<script>
+ 
+var options = {
+        //edad_3_a_5 : ["edad_3_a_5","5 a 7","7 a 9"],
+        edad_3_a_5 : ["100m"],
+        edad_6_a_7 : ["200m"],
+        edad_8_a_9 : ["300m"],
+        edad_10_a_12 : ["400m"],
+}
+
+$(function(){
+    var fillSecondary = function(){
+        var selected = $('#primary').val();
+        $('#secondary').empty();
+        options[selected].forEach(function(element,index){
+            $('#secondary').append('<option value="'+element+'">'+element+'</option>');
+        });
+    }
+    $('#primary').change(fillSecondary);
+    fillSecondary();
+});
+
+function checkSubmit() {
+    document.getElementById("btsubmit").value = "Ya registrado";
+    document.getElementById("btsubmit").disabled = true;
+    return true;
+}
+</script>
 </html>

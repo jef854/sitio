@@ -1,6 +1,6 @@
 <?php
 
-
+/*
 $usr = $_POST['empleado'];
 $pas = $_POST['pass'];
 
@@ -45,7 +45,14 @@ try{
 } catch (SoapFault $e) {
         echo $e->faultcode;
         header("Location: http://www.correyjuega.telcel.com/"); 
-}   
+}   */
+
+//$usr = $_POST['empleado'];
+//$pas = $_POST['pass'];
+session_start();
+$_SESSION['username'] = 1234;
+$_SESSION['logged'] = TRUE;
+header("Location: /sitio/sindicato/index.php");
     
 ?>  
 

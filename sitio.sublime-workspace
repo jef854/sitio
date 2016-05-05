@@ -39,6 +39,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/home/cesar/Escritorio/cambio28042016/index.php",
+			"settings":
+			{
+				"buffer_size": 70613,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/home/cesar/Escritorio/cambio28042016/sindicato/index.php",
+			"settings":
+			{
+				"buffer_size": 83923,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -72,10 +88,27 @@
 	},
 	"expanded_folders":
 	[
-		"/var/www/html/sitio"
+		"/var/www/html/sitio",
+		"/var/www/html/sitio/connection",
+		"/var/www/html/sitio/js",
+		"/var/www/html/sitio/sindicato"
 	],
 	"file_history":
 	[
+		"/home/cesar/Escritorio/cambio28042016/sindicato/index.php",
+		"/var/www/html/sitio/sindicato/index.php",
+		"/var/www/html/sitio/sindicato/ninos.php",
+		"/home/cesar/Escritorio/cambio28042016/sindicato/ninos.php",
+		"/home/cesar/Escritorio/cambio28042016/sindicato/invitado.php",
+		"/var/www/html/sitio/sindicato/invitado.php",
+		"/home/cesar/Descargas/sitio/sindicato/index.php",
+		"/var/www/html/sitio/connection/web.php",
+		"/var/www/html/sitio/sindicato/login.php",
+		"/var/www/html/sitio/sindicato/validate_login.php",
+		"/home/cesar/Descargas/sitio/sindicato/ninos.php",
+		"/var/www/html/sitio/js/functions.js",
+		"/var/www/html/sitio/index.php",
+		"/home/cesar/Descargas/sitio/index.php",
 		"/var/www/html/MyShop/styles/style.css",
 		"/var/www/html/MyShop/index.php",
 		"/var/www/html/sig/protected/models/DatosPersonales.php",
@@ -125,9 +158,7 @@
 		"/var/www/html/silac/protected/views/layouts/login.php",
 		"/var/www/html/silac/protected/views/site/login.php",
 		"/var/www/html/silac/protected/views/site/main.php",
-		"/var/www/html/sitio/sindicato/login.php",
 		"/home/cesar/Escritorio/nuevo_cambio/.htaccess",
-		"/var/www/html/sitio/sindicato/validate_login.php",
 		"/home/cesar/Escritorio/nuevo_cambio/login.php",
 		"/home/cesar/Descargas/sitio-12 (2)/sitio-12/js/functions.js",
 		"/var/www/html/spdgm/.htaccess",
@@ -143,13 +174,10 @@
 		"/home/cesar/Escritorio/cambios/sindicato/validate_login.php",
 		"/var/www/html/alertify/grunt.js",
 		"/var/www/html/sigedo/protected/views/documentos/_form.php",
-		"/var/www/html/sitio/sindicato/index.php",
 		"/var/www/html/sitio/sindicato/test3.php",
 		"/var/www/html/sitio/sindicato/test1.php",
 		"/var/www/html/sitio/sindicato/prueba_web4.php",
-		"/var/www/html/sitio/js/functions.js",
 		"/home/cesar/Descargas/correyjuegadb.15032016.sql",
-		"/var/www/html/sitio/connection/web.php",
 		"/var/www/html/sigedo/protected/controllers/ApipdfController.php",
 		"/var/www/html/sedeco/protected/controllers/ApipdfController.php",
 		"/var/www/html/sedeco/protected/views/site/page67.php",
@@ -194,20 +222,11 @@
 		"/var/www/html/sigedo/protected/views/turnosList/admin.php",
 		"/var/www/html/sigedo/protected/views/directorioView/admin.php",
 		"/var/www/html/silac/apps/frontend/modules/ingreso/actions/actions.class.php",
-		"/var/www/html/sigedo/protected/models/TurnosList.php",
-		"/var/www/html/sigedo/protected/views/turnos/_info.php",
-		"/var/www/html/sigedo/protected/models/Turnos.php",
-		"/var/www/html/sigedo/protected/models/Expedientes.php",
-		"/var/www/html/sigedo/protected/controllers/ExpedientesController.php",
-		"/var/www/html/sigedo/protected/views/turnos/returnar.php",
-		"/var/www/html/sigedo/protected/views/turnos/create.php",
-		"/var/www/html/sigedo/protected/views/expedientes/create.php",
-		"/var/www/html/sigedo/protected/views/expedientes/update.php",
-		"/var/www/html/sigedo/protected/views/expedientes/_form.php"
+		"/var/www/html/sigedo/protected/models/TurnosList.php"
 	],
 	"find":
 	{
-		"height": 79.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -221,6 +240,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Posiblemente",
+			"numero_nino",
 			"alertify",
 			"756",
 			"					<i class=\"fa fa-usd\"></i>756",
@@ -258,8 +279,69 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/home/cesar/Escritorio/cambio28042016/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 70613,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2442.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/cesar/Escritorio/cambio28042016/sindicato/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 83923,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -322,7 +404,7 @@
 		[
 			[
 				"",
-				"~/Descargas/fidegar.sublime-workspace"
+				"/var/www/html/sigedo/sigedo.sublime-project"
 			],
 			[
 				"se",

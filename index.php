@@ -122,10 +122,10 @@
                             (Te esperamos desde las 6:00 a.m.)<br />
 							<strong>Cupo limitado:</strong> 800 corredores<br />
                             <ul>
-                              <li><a class="rutas" href="images/RUTAPUEBLA.jpg" rel="rutas" title="Ruta 5K y 10K">Ver Rutas</a></li>
+                              <li><a class="rutas" href="images/RutaPuebla.png" rel="rutas" title="Ruta 5K y 10K">Ver Rutas</a></li>
                               <!--<li><a class="rutas" href="images/estacionamientos-df.jpg" rel="rutas" title="Estacionamientos">Ver Estacionamientos</a></li>-->
-                              <li><a class="rutas" href="images/ENTREGADEKITS.jpg" >Entrega de Kits</a></li>
-                              <li><a href="files/CONVOCATORIAPUEBLA2016.pdf" target="_blank">Ver convocatoria</a></li>
+                              <li><a class="rutas" href="images/ENTREGADEKITSf.jpg" >Entrega de Kits</a></li>
+                              <li><a href="files/CONVOCATORIAPUEBLAVF.pdf" target="_blank">Ver convocatoria</a></li>
                               <!--<li><a href="http://marcate.com.mx/evento/SPTMCAR1445440668" target="_blank">Inscríbete aquí</a></li>-->
                           </ul>
                         </div>

@@ -295,8 +295,7 @@ $().ready(function() {
 				required: true
 			},
 			edad: {
-				required: true,
-				range: [4, 12]
+				required: true
 			},
 			sexo: {
 				required: true

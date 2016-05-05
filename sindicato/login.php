@@ -59,7 +59,7 @@ echo "<script type=\"text/javascript\">alert(\"Error de conexion ldap\");</scrip
 	<div class="telcel-login-container">    	
        	<h2 class="header">Iniciar Sesión</h2>
        <div class="telcel-login-form">
-            <form id="login-form" action="sindicato/validate_login.php" method="post">
+            <form id="login-form" action="/sitio/sindicato/validate_login.php" method="post">
                 <label>Número de Empleado</label><br />
                 <input type="text" name="empleado" id="empleado" class="text-field" /><br />
                 <label>Contraseña</label><br />
