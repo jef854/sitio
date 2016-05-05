@@ -8,7 +8,7 @@ include("../connection/web.php");
 /*Hacer la consulta de registro maximo de niños*/
 $query_nino = "SELECT * FROM ninos";
 $result_nino = mysql_query($query_nino, $db) or die(mysql_error());
-echo  $numero_nino = mysql_num_rows($result_nino);
+$numero_nino = mysql_num_rows($result_nino);
 /*Fin de la consulta de numero maxi de  ninos*/
 $query = "SELECT * FROM registros";
 $result = mysql_query($query, $db) or die(mysql_error());
@@ -134,9 +134,9 @@ $proximamente = "";
         <div id="run" class="telcel-run telcel-section">
         	<div class="telcel-run-cont">
 				<h2 class="header">CARRERA</h2>
-                <h3><strong>2a. Carrera Sindicato Telcel Chihuahua 5 y 10 Km 17 de Abril de 2016</strong></h3>
+                <h3><strong>1a. Carrera Sindicato Telcel Puebla 5 y 10 Km 8 de Mayo de 2016</strong></h3>
                 <div class="countdown-cont">
-                	<h4 class="header3-blue">CHIHUAHUA</h4>
+                	<h4 class="header3-blue">PUEBLA</h4>
                     <ul class="countdown3">
                         <li> <span class="days">00</span>
                         <p class="days_ref">días</p>
@@ -167,7 +167,7 @@ $proximamente = "";
                             (Te esperamos desde las 6:00 a.m.)<br />
                             <strong>Cupo limitado:</strong> 800 corredores<br />
                             <ul>
-                              <li><a class="rutas" href="../images/RutaPuebla.jpg" rel="rutas" title="Ruta 5K y 10K">Ver Rutas</a></li>
+                              <li><a class="rutas" href="../images/RutaPuebla.png" rel="rutas" title="Ruta 5K y 10K">Ver Rutas</a></li>
                               <!--<li><a class="rutas" href="images/estacionamientos-df.jpg" rel="rutas" title="Estacionamientos">Ver Estacionamientos</a></li>-->
                               <li><a class="rutas" href="../images/ENTREGADEKITSf.jpg" >Entrega de Kits</a></li>
                               <li><a href="../files/CONVOCATORIAPUEBLAVF.pdf" target="_blank">Ver convocatoria</a></li>
