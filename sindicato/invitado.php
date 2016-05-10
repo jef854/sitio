@@ -68,8 +68,7 @@ $invitados_restantes = 2 - $numero_invitado;
                                 <label>CARRERA:</label>
                                 <select name="carrera">
                                         <option value="">SELECCIONA:</option>
-                                        <option value="PUEBLA">PUEBLA</option>
-                                        <option value="PUEBLA">QUERETARO</option>
+                                        <option value="QUERETARO">QUERETARO</option>
                                 </select>
                             </div>
                             <div class="input-wrap">

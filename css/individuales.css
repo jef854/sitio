@@ -1,11 +1,16 @@
 @charset "utf-8";
 /* Carreras Individuales Styles */
+*{
+	margin: 0;
+	padding: 0;
+}
 
 /*General*/
 body{
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 16px;
 	color: #222222;
+	padding: 10px;
 }
 
 /*Carrera*/
@@ -25,6 +30,10 @@ body{
 	width: 39%;
 	max-width: 300px;
 }
+.futbol-cede-mapa .ubicacion{
+	font-size: 14px;
+	margin-top: 14px;
+}
 .futbol-cede-text{
 	float: right;
 	width: 59%;	
@@ -33,10 +42,22 @@ body{
 .futbol-cede-text-inner{
 	font-size: 13px;
 }
+.futbol-cede-text-inner h1, .futbol-cede-text-inner h2, .futbol-cede-text-inner h3, .futbol-cede-text-inner h4, .futbol-cede-text-inner h5, .futbol-cede-text-inner h6, .futbol-cede-text-inner p, .futbol-cede-text-inner ul{
+	margin-bottom: 14px;
+}
+.futbol-cede-text-inner ul{
+	padding-left: 28px;
+}
 .menu-btn ul{
-	margin-top: 20px;
+	width: 100%;
+	display: inline-block;
 	padding: 0;
+	margin-bottom: 14px;
 	list-style: none;
+}
+.menu-btn ul li{
+	float: left;
+	margin: 0 5px 5px 0;
 }
 .menu-btn ul li a{
 	text-align: center;
@@ -44,13 +65,44 @@ body{
 	color: #222;
 	text-decoration: none;	
 	padding: 3px 10px;
-	margin: 5px 5px 0 0;
+	margin: 0;
 	background: #fff;
 	border: #3284d8 2px solid;
 }
 .menu-btn ul li a:hover{
 	color: #fff;
 	background: #3284d8;
+}
+.menu-btn ul li:hover > a{
+	color: #fff;
+	background: #3284d8;
+}
+.sub-menu{
+	display: none !important;
+	width: 180px !important;
+	margin: 0px !important;
+	position: absolute;
+	background-color: #3284d8;
+	z-index: 1000;
+}
+.sub-menu li{
+	float: left;
+}
+.sub-menu li a{
+	font-size: 14px;
+	display: block;
+	font-weight: bold;
+	color: #fff !important;
+	text-decoration: none;
+	margin-right: 30px;
+	padding: 5px 10px !important;
+	background: none !important;
+}
+.sub-menu li a:hover{
+	text-decoration: underline;
+}
+.menu-btn ul li:hover > ul{
+	display: block !important;
 }
 
 .finalizada{

@@ -41,17 +41,19 @@
             </li>
             <li><a href="#run">Inscríbete a la Carrera</a></li>
             <!--<li><a href="http://www.marcate.com.mx/evento/SPTMCAR1442011544" target="_blank">Inscríbete a la Carrera</a></li>-->
-            <li><a href="http://www.playmarketing.mx/liga-futbol-telcel/">Futbol</a>
+            <li><a href="futbol.php">Futbol</a>
             	<ul class="sub-menu">
-                	<li><a href="fut-df.php" class="fut-link" rel="futbol">D.F.</a></li>
-                    <li><a href="fut-hermosillo.php" class="fut-link" rel="futbol">Hermosillo</a></li>
-                    <li><a href="fut-merida.php" class="fut-link" rel="futbol">Mérida</a></li>
-                    <li><a href="fut-guadalajara.php" class="fut-link" rel="futbol">Guadalajara</a></li>
-                    <li><a href="fut-queretaro.php" class="fut-link" rel="futbol">Queretaro</a></li>
-                    <li><a href="fut-chihuahua.php" class="fut-link" rel="futbol">Chihuahua</a></li>
-                    <li><a href="fut-tijuana.php" class="fut-link" rel="futbol">Tijuana</a></li>
-                    <li><a href="fut-puebla.php" class="fut-link" rel="futbol">Puebla</a></li>
-                    <li><a href="fut-monterrey.php" class="fut-link" rel="futbol">Monterrey</a></li>
+                	  
+                        <li><a href="fut-df-corporativo.php" class="fut-link" rel="futbol-2">D.F. Corporativo</a></li>
+                        <li><a href="fut-df-metropolitano.php" class="fut-link" rel="futbol-2">D.F. Metropolitano</a></li>
+                        <li><a href="fut-merida.php" class="fut-link" rel="futbol-2">Mérida</a></li>
+                        <li><a href="fut-guadalajara.php" class="fut-link" rel="futbol-2">Guadalajara</a></li>
+                        <li><a href="fut-queretaro.php" class="fut-link" rel="futbol-2">Queretaro</a></li>
+                        <li><a href="fut-chihuahua.php?section=sind" class="fut-link" rel="futbol-2">Chihuahua</a></li>
+                        <li><a href="fut-tijuana.php" class="fut-link" rel="futbol-2">Tijuana</a></li>
+                        <li><a href="fut-puebla.php" class="fut-link" rel="futbol-2">Puebla</a></li>
+                        <li><a href="fut-monterrey.php" class="fut-link" rel="futbol-2">Monterrey</a></li>
+                  
                 </ul>
             </li>
             <li><a href="#gal">Galerías</a>
@@ -63,7 +65,7 @@
     	<div class="telcel-slider telcel-section">
         	<div id="slider">
                 <ul>
-                	<li><img src="images/slidepuebla.jpg" alt="Carreras Sindicato Telcel" /></li>
+                	<li><img src="images/slidequeretaro.jpg" alt="Carreras Sindicato Telcel" /></li>
                     <li><img src="images/slide-logo-futbol.jpg" alt="Circuito Sindicato Telcel" /></li>			
                     <li><img src="images/carreras/2014/df/df_2014_04.jpg" alt="Carreras Sindicato Telcel" /></li>
                     <li><img src="images/carreras/2014/df/df_2014_14.jpg" alt="Carreras Sindicato Telcel" /></li>
@@ -89,9 +91,9 @@
         <div id="run" class="telcel-run telcel-section">
         	<div class="telcel-run-cont">
 				<h2 class="header">CARRERA</h2>
-                <h3><strong>1a. Carrera Sindicato Telcel Puebla 5 y 10 Km 8 de Mayo de 2016</strong></h3>
+                <h3><strong>1a. Carrera Sindicato Telcel Querétaro 5 y 10 Km 5 de Junio de 2016</strong></h3>
                 <div class="countdown-cont">
-                	<h4 class="header3-blue">PUEBLA</h4>
+                	<h4 class="header3-blue">QUERÉTARO</h4>
                     <ul class="countdown3">
                         <li> <span class="days">00</span>
                         <p class="days_ref">días</p>
@@ -112,20 +114,20 @@
                 </div>
                 <div class="telcel-challenge">
                     <div class="telcel-challenge-item center-challenge">
-                    	<img src="images/imagenhomepuebla.jpg" alt="Carrera Sindicato Telcel D.F." />
+                    	<img src="images/imagen-queretaro.jpg" alt="Carrera Sindicato Telcel D.F." />
                         <div class="challenge-text">
-                       	  <h4>1a Carrera <br /><strong> Sindicato Telcel Puebla</strong></h4>
-                          	<p><strong>Fecha:</strong> Domingo 8 de Mayo de 2016<br />
-                            <strong>Lugar:</strong>Pista de Atletismo del Parque del Arte <br />
+                       	  <h4>1a Carrera <br /><strong> Sindicato Telcel Querétaro</strong></h4>
+                          	<p><strong>Fecha:</strong> Domingo 5 de Junio de 2016<br />
+                           <!-- <strong>Lugar:</strong><br /> -->
                             <strong>Distancias:</strong> 5K y 10K<br />
                             <strong>Horario de salida:</strong> 8:00 a.m.<br />
                             (Te esperamos desde las 6:00 a.m.)<br />
 							<strong>Cupo limitado:</strong> 800 corredores<br />
                             <ul>
-                              <li><a class="rutas" href="images/RutaPuebla.png" rel="rutas" title="Ruta 5K y 10K">Ver Rutas</a></li>
+                              <li><a class="rutas" href="#" rel="rutas" title="Ruta 5K y 10K">Ver Rutas</a></li>
                               <!--<li><a class="rutas" href="images/estacionamientos-df.jpg" rel="rutas" title="Estacionamientos">Ver Estacionamientos</a></li>-->
-                              <li><a class="rutas" href="images/ENTREGADEKITSf.jpg" >Entrega de Kits</a></li>
-                              <li><a href="files/CONVOCATORIAPUEBLAVF.pdf" target="_blank">Ver convocatoria</a></li>
+                              <li><a class="rutas" href="#" >Entrega de Kits</a></li>
+                              <li><a href="#" target="_blank">Ver convocatoria</a></li>
                               <!--<li><a href="http://marcate.com.mx/evento/SPTMCAR1445440668" target="_blank">Inscríbete aquí</a></li>-->
                           </ul>
                         </div>
@@ -204,9 +206,9 @@
                         <li><a href="files/reglamento-futbol-2015.pdf" target="_blank">Reglamento</a></li>
                     </ul>
                     <h3>CIUDADES Y/O <strong>SEDES</strong></h3>
-                    <ul class="menu-sedes">
-                        <li><a href="fut-df.php" class="fut-link" rel="futbol-2">D.F.</a></li>
-                        <li><a href="fut-hermosillo.php" class="fut-link" rel="futbol-2">Hermosillo</a></li>
+                   <ul class="menu-sedes">
+                        <li><a href="fut-df-corporativo.php" class="fut-link" rel="futbol-2">D.F. Corporativo</a></li>
+                        <li><a href="fut-df-metropolitano.php" class="fut-link" rel="futbol-2">D.F. Metropolitano</a></li>
                         <li><a href="fut-merida.php" class="fut-link" rel="futbol-2">Mérida</a></li>
                         <li><a href="fut-guadalajara.php" class="fut-link" rel="futbol-2">Guadalajara</a></li>
                         <li><a href="fut-queretaro.php" class="fut-link" rel="futbol-2">Queretaro</a></li>
@@ -561,7 +563,7 @@
 			offset: -5
 		});
 		$('.countdown3').downCount({
-			date: '05/08/2016 08:00:00',
+			date: '06/05/2016 08:00:00',
 			offset: -5
 		});
 		/*$('#slider').nivoSlider({
