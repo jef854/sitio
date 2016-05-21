@@ -1,9 +1,9 @@
 <?php
-session_start();
+/*session_start();
 if(!$_SESSION['logged']){
     header("Location: login.php");
     exit;
-}
+}*/
 include("../connection/web.php");
 $query = "SELECT * FROM ninos";
 $result = mysql_query($query, $db) or die(mysql_error());

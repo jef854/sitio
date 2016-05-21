@@ -89,7 +89,7 @@ if( $verifyUser == 0 ){
         $mail->Subject = "Inscripcion de Invitado";	
         $message = stripslashes($message);
         $mail->Body = $message;
-        $mail->SetFrom('correyjuega@mail.telcel.com', 'Carrera Sindicato Telcel 2015');
+        $mail->SetFrom('correyjuega@mail.telcel.com', 'Carrera Sindicato Telcel 2016');
                
         if(!$mail->Send()) {
            echo 'error'; 

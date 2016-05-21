@@ -26,7 +26,7 @@
             <li><a href="#top">Inicio</a></li>
             <li><a href="#what">¿Qué es el Circuito Sindicato Telcel?</a></li>
             <li><a href="#run">Carreras</a>
-            	<ul class="sub-menu">
+            	<!--<ul class="sub-menu">
                 	
                     <li><a href="#" >Querétaro</a></li>
                 	<li><a href="#" >Tijuana</a></li>
@@ -37,11 +37,11 @@
                     <li><a href="#">Chihuahua</a></li>
                      <li><a href="#" >Puebla</a></li>
                     
-                </ul>
+                </ul>-->
             </li>
-            <li><a href="#run">Inscríbete a la Carrera</a></li>
+            <li><a href="#run">Inscríbete</a></li>
             <!--<li><a href="http://www.marcate.com.mx/evento/SPTMCAR1442011544" target="_blank">Inscríbete a la Carrera</a></li>-->
-            <li><a href="futbol.php">Futbol</a>
+            <li><a href="#fut">Futbol</a>
             	<ul class="sub-menu">
                 	  
                         <li><a href="fut-df-corporativo.php" class="fut-link" rel="futbol-2">D.F. Corporativo</a></li>
@@ -56,7 +56,8 @@
                   
                 </ul>
             </li>
-            <li><a href="#gal">Galerías</a>
+            <li><a href="#gal">Galerías</a></li>
+            <li><a href="#contacto">Contacto</a></li>
         </ul>
     </div>
 </div>
@@ -71,7 +72,7 @@
                     <li><img src="images/carreras/2014/df/df_2014_14.jpg" alt="Carreras Sindicato Telcel" /></li>
                     <li><img src="images/carreras/2014/gdl/gdl_2014_13.jpg" alt="Carreras Sindicato Telcel" /></li>
                     <li><img src="images/carreras/2014/gdl/gdl_2014_19.jpg" alt="Carreras Sindicato Telcel" /></li>
-                    <li><img src="images/carreras/2015/chihuahua/chihuaehua_2015_06.jpg" alt="Carreras Sindicato Telcel" /></li>
+                    <li><img src="images/carreras/2015/chihuahua/chihuahua_2015_06.jpg" alt="Carreras Sindicato Telcel" /></li>
                     <li><img src="images/carreras/2015/chihuahua/chihuahua_2015_09.jpg" alt="Carreras Sindicato Telcel" /></li>
                     <li><img src="images/carreras/2015/merida/merida_2015_14.jpg" alt="Carreras Sindicato Telcel" /></li>
                     <li><img src="images/carreras/2015/merida/merida_2015_07.jpg" alt="Carreras Sindicato Telcel" /></li>
@@ -120,14 +121,14 @@
                           	<p><strong>Fecha:</strong> Domingo 5 de Junio de 2016<br />
                            <!-- <strong>Lugar:</strong><br /> -->
                             <strong>Distancias:</strong> 5K y 10K<br />
-                            <strong>Horario de salida:</strong> 8:00 a.m.<br />
+                           <!--  <strong>Horario de salida:</strong> 8:00 a.m.<br />
                             (Te esperamos desde las 6:00 a.m.)<br />
-							<strong>Cupo limitado:</strong> 800 corredores<br />
+							<strong>Cupo limitado:</strong> 800 corredores<br />-->
                             <ul>
-                              <li><a class="rutas" href="#" rel="rutas" title="Ruta 5K y 10K">Ver Rutas</a></li>
+                              <li><a class="rutas" href="images/ruta_qro.jpg" rel="rutas" title="Ruta 5K y 10K">Ver Rutas</a></li>
                               <!--<li><a class="rutas" href="images/estacionamientos-df.jpg" rel="rutas" title="Estacionamientos">Ver Estacionamientos</a></li>-->
-                              <li><a class="rutas" href="#" >Entrega de Kits</a></li>
-                              <li><a href="#" target="_blank">Ver convocatoria</a></li>
+                              <li><a class="rutas" href="images/kit_qro.jpg" >Entrega de Kits</a></li>
+                              <li><a href="files/convocatoria_qro.pdf" target="_blank">Ver convocatoria</a></li>
                               <!--<li><a href="http://marcate.com.mx/evento/SPTMCAR1445440668" target="_blank">Inscríbete aquí</a></li>-->
                           </ul>
                         </div>
@@ -137,7 +138,7 @@
                     <div class="telcel-challenge-item center-challenge">
 						<ul>
 							<li><a href="https://www.facebook.com/Carrera-Sindicato-Telcel-2016-1962062104019018/?ref=ts&fref=ts" target="_blank"><img src="images/iconofacebook.png" alt="Carrera Sindicato Telcel D.F." /></a></li>
-							<li><a href="https://twitter.com/carrerastelcel" target="_blank"><img src="images/iconotwitter.png" alt="Carrera Sindicato Telcel D.F." /></a></li>
+							<li><a href="https://twitter.com/sindicatotelcel" target="_blank"><img src="images/iconotwitter.png" alt="Carrera Sindicato Telcel D.F." /></a></li>
 						</ul>                    	                       
                     </div>					
                 </div>
@@ -201,26 +202,33 @@
                         <li><strong><i>Importante llegar 15 minutos antes de la hora de partido.</i></strong></li>
                     </ul>
                     <p>Para más información <a href="mailto:jmillan@playmarketing.mx">jmillan@playmarketing.mx</a>, <a href="mailto:pgutierrez@playmarketing.mx">pgutierrez@playmarketing.mx</a> o con la persona de contacto de tu localidad (RRHH).</p>
-                    <ul class="btn-menu-telcel">
-                        <li><a href="files/convocatoria-futbol.pdf" target="_blank">Convocatoria</a></li>
-                        <li><a href="files/reglamento-futbol-2015.pdf" target="_blank">Reglamento</a></li>
-                    </ul>
-                    <h3>CIUDADES Y/O <strong>SEDES</strong></h3>
-                   <ul class="menu-sedes">
-                        <li><a href="fut-df-corporativo.php" class="fut-link" rel="futbol-2">D.F. Corporativo</a></li>
-                        <li><a href="fut-df-metropolitano.php" class="fut-link" rel="futbol-2">D.F. Metropolitano</a></li>
-                        <li><a href="fut-merida.php" class="fut-link" rel="futbol-2">Mérida</a></li>
-                        <li><a href="fut-guadalajara.php" class="fut-link" rel="futbol-2">Guadalajara</a></li>
-                        <li><a href="fut-queretaro.php" class="fut-link" rel="futbol-2">Queretaro</a></li>
-                        <li><a href="fut-chihuahua.php?section=sind" class="fut-link" rel="futbol-2">Chihuahua</a></li>
-                        <li><a href="fut-tijuana.php" class="fut-link" rel="futbol-2">Tijuana</a></li>
-                        <li><a href="fut-puebla.php" class="fut-link" rel="futbol-2">Puebla</a></li>
-                        <li><a href="fut-monterrey.php" class="fut-link" rel="futbol-2">Monterrey</a></li>
-                    </ul>
+                    
                 </div>
             </div>
         </div>
 	</div>
+</div>
+
+<div class="telcel-wrapper">
+    <div class="telcel-container">        
+        <div id="contacto" class="telcel-fut telcel-section">
+            <div class="telcel-contacto-cont">
+                <h2 class="header">CONTACTO</h2>
+                <div class="telcel-fut-logo">
+                    <img src="images/logo-futbol.png" />
+                </div>
+                <div class="telcel-fut-text">
+
+                  
+                    <p>Cualquier pregunta o duda escríbenos un correo a:<bR><br /><a href="mailto:correyjuega@mail.telcel.com">correyjuega@mail.telcel.com</a></p>
+                      <br />
+                      <p><strong>TELÉFONO DE CONTACTO</strong></p>
+                         <p>+52 1 55 6166 2855</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <div class="telcel-wrapper">
     <div class="telcel-container">        
@@ -550,7 +558,9 @@
             </div>
         </div>
     </div>
+
 </div>
+
 
 <script type="text/javascript">
 	(function($) {

@@ -48,7 +48,7 @@ $message = "<html xmlns='http://www.w3.org/1999/xhtml'>
         $mail->Subject = "Inscripcion de Nino";	
         $message = stripslashes($message);
         $mail->Body = $message;
-        $mail->SetFrom('correyjuega@mail.telcel.com', 'Carrera Sindicato Telcel 2015');
+        $mail->SetFrom('correyjuega@mail.telcel.com', 'Carrera Sindicato Telcel 2016');
                
         if(!$mail->Send()) {
            echo 'error'; 
