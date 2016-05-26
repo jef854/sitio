@@ -140,7 +140,7 @@ $proximamente = "";
         <div id="run" class="telcel-run telcel-section">
         	<div class="telcel-run-cont">
 				<h2 class="header">CARRERA</h2>
-                <h3><strong>1a. Carrera Sindicato Telcel Querétaro 5 y 10 Km 5 de Junio de 2016</strong></h3>
+                <h3><strong>2a. Carrera Sindicato Telcel Querétaro 5 y 10 Km 5 de Junio de 2016</strong></h3>
                 <div class="countdown-cont">
                 	<h4 class="header3-blue">QUERÉTARO</h4>
                     <ul class="countdown3">
